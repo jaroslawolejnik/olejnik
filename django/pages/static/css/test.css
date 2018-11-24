@@ -1,0 +1,41 @@
+
+body {
+    font-size: 13px;
+    font-family: Times, sans-serif;
+    color: #173F57;
+    background-color: #F2B134;
+  }
+  /* Ustawiam header - tło, odstępy, centrowanie tekstu, wielkosc i kolor */
+  header {
+    background-color: #A83424;
+    padding: 30px;
+    width:auto;
+    text-align: center;
+    font-size: 23px;
+    }
+    /* Ustawiam właściwości sidebara */
+    nav {
+        color: #F2E4D8;
+        float: right;
+        width: 10%;
+        height: 220px;
+        background: #ccc;
+        background-color: #ED553B;
+    }
+        /* Ustawiam kolor nieodwiedzonych i odwiedzonych linków */
+    a:link {
+    color: white;
+    text-decoration: underline;}
+    a:visited {
+    color: #F2B1EF;
+    }
+        /* Ustawiam właściwości contentu !*/
+    article {
+      color: #ED553B;
+      float: left;
+      width: 90%;
+      height: 220px;
+      background: #ccc;
+      background-color: #8A6753;
+      overflow: hidden;
+        }
