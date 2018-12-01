@@ -16,7 +16,7 @@ for (int i = 0; i < 3; i++) {
   digitalWrite(dioda,HIGH);
   delay(sekundy2);
   digitalWrite(dioda,LOW);
-  delay(sekundy2);
+  delay(sekundy);
   }
 
 for (int i = 0; i < 3; i++) {
@@ -27,5 +27,5 @@ for (int i = 0; i < 3; i++) {
   }
 
 
-  delay(5000);
+  delay(4200);
 }
